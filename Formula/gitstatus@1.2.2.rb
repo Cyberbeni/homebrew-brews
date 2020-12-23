@@ -1,4 +1,4 @@
-class Gitstatus < Formula
+class GitstatusAT122 < Formula
   desc "Git status for Bash/Zsh prompt"
   homepage "https://github.com/romkatv/gitstatus"
   url "https://github.com/romkatv/gitstatus/archive/v1.2.2.tar.gz"
