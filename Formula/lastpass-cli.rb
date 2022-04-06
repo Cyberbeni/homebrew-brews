@@ -14,7 +14,7 @@ class LastpassCli < Formula
  
 	def install
 		ENV["PREFIX"] = prefix
-		ENV["OPENSSL_ROOT_DIR"] = Formula["unixodbc"].opt_prefix
+		ENV["OPENSSL_ROOT_DIR"] = Formula["openssl@1.1"].opt_prefix
  
 		system "make"
 		system "make", "install"
