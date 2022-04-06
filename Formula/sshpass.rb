@@ -11,7 +11,7 @@ class Sshpass < Formula
 	end
 
 	def test
-	  system "sshpass"
+		system "sshpass"
 	end
  end
  
