@@ -1,8 +1,9 @@
-cask 'sensiblesidebuttons' do
+cask 'sensiblesidebuttons-fork' do
   version "1.0.8"
   auto_updates false
   url "https://github.com/Cyberbeni/sensible-side-buttons/archive/refs/tags/#{version}.tar.gz"
   sha256 "9e9043ad935c477c974362ea3ade20c0fb3d6bb9f62f4db9af03ea61a145eca1"
+  conflicts_with "sensiblesidebuttons"
 
   preflight do
     arch = `uname -m`.chomp
