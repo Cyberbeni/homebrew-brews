@@ -3,7 +3,7 @@ cask 'sensiblesidebuttons-fork' do
   auto_updates false
   url "https://github.com/Cyberbeni/sensible-side-buttons/archive/refs/tags/#{version}.tar.gz"
   sha256 "9e9043ad935c477c974362ea3ade20c0fb3d6bb9f62f4db9af03ea61a145eca1"
-  conflicts_with "sensiblesidebuttons"
+  conflicts_with cask: "sensiblesidebuttons"
 
   preflight do
     arch = `uname -m`.chomp
