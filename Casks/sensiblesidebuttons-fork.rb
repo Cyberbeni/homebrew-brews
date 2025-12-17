@@ -1,8 +1,8 @@
 cask 'sensiblesidebuttons-fork' do
-  version "1.0.10"
+  version "1.0.11"
   auto_updates false
   url "https://github.com/Cyberbeni/sensible-side-buttons/archive/refs/tags/#{version}.tar.gz"
-  sha256 "4874153fec2b3f6b8d813eef68f00cf3d1fbafd3d997e17968478348fbb8410b"
+  sha256 "3158aded2e00e18f0d9e81502967e357ad46ffb303f69b2129b37fc40644fc56"
   conflicts_with cask: "sensiblesidebuttons"
 
   preflight do
